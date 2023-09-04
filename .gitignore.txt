@@ -1,0 +1,67 @@
+# Python cache and compilation artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Python environment files
+.env
+
+# If you use pytest's cache
+.pytest_cache/
+
+# Jupyter notebook checkpoints and other temporary files
+notebooks/.ipynb_checkpoints/
+
+# Logs directory
+logs/
+
+# Virtual environments or Python virtual environments
+venv/
+*.venv/
+env/
+
+# IDE specific files (assuming a few common ones, adjust as needed)
+.vscode/
+.idea/
+
+# Docker related
+*.env # Often used for environment variables with Docker
+containers/*/Dockerfile.* # Any variants of Dockerfiles
+!containers/*/Dockerfile # Except the main Dockerfile
+
+# Configuration (If sensitive data is present)
+# Uncomment the next line if you want to ignore all configs
+# configs/
+
+# Libraries
+lib/
+
+# Binary or large files in data (You might have some binary or large data files that you don't want in git)
+data/*/*.bin
+data/*/*.tar.gz
+data/*/*.zip
+
+# Operational & utility scripts (If they contain sensitive info or compiled files)
+# scripts/*.sh
+# scripts/*.bin
+
+# If there are database migration files or sensitive operational scripts
+# scripts/migrations/*.env
+# scripts/migrations/*.log
+
+# Articy project files (assuming they might generate temp or binary files)
+# Uncomment based on the specifics of Articy files
+# articy/*.tmp
+# articy/*.bin
+
+# Assets - Depending on the nature, binary or large assets might need ignoring
+# assets/*.bin
+
+# Third party (if there are binaries or temp files)
+# third_party/*.bin
+# third_party/*.tmp
+
+# OS generated files
+.DS_Store # For MacOS
+Thumbs.db # For Windows
