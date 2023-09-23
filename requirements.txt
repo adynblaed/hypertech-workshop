@@ -1,0 +1,52 @@
+# Core Python Libraries
+numpy>=1.24.1
+pandas>=2.1.1
+matplotlib>=3.8.0
+scipy>=1.11.2
+
+# Machine Learning Libraries
+scikit-learn>=1.3.1
+xgboost>=2.0.0
+
+# Deep Learning Libraries
+keras>=2.14.0
+
+# Natural Language Processing Libraries
+nltk>=3.8.1
+spacy>=3.6.1
+
+# Data Visualization Libraries
+jupyterlab>=4.0.6
+seaborn>=0.12.2
+plotly>=5.17.0
+bokeh>=3.2.2
+
+# Data Engineering Libraries
+sqlalchemy>=2.0.21
+dask>=2023.9.2
+dash>=2.13.0
+
+# MLOps Libraries
+mlflow>=2.7.1
+
+# DevOps Libraries
+docker>=6.1.3
+ansible>=8.4.0
+
+# DataOps Libraries
+apache-beam>=2.50.0
+
+# Model Libraries
+cog>=0.8.6
+replicate>=0.13.0
+
+# Quantum Playground
+qiskit>=0.44.1
+
+# Version Control
+GitPython>=3.1.36
+
+# Bonus
+joblib>=1.3.2
+streamlit>=1.27.0
+fastapi==0.98.0
